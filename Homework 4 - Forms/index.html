@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="form-wrap">
+        <form action="">
+        <fieldset>
+            <legend>Інформація про вас</legend>
+                <div class="fuul-name">
+                    <label for="full-name">
+                        Повне ім'я: <input type="text" id="full-name" required>
+                    </label>
+                </div>
+
+                <div class="radio">
+                    <span>Стать:</span>
+                    <label>
+                        <input type="radio" name="sex" value="man" checked>чоловіча
+                    </label>
+
+                    <label>
+                        <input type="radio" name="sex" value="woman">жіноча
+                    </label>
+                </div>
+
+                <div class="date">
+                    <label for="">
+                        Вік: <input type="date" required>
+                    </label>
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Реєстраційна інформація</legend>
+            <div class="email">
+                <label>
+                    Email: <input type="email" required>
+                </label>
+            </div>
+
+            <div class="pass">
+                <label>
+                    Пароль: <input type="password" required>
+                </label>
+            </div>
+
+            <div class="pass-again">
+                <label>
+                    Пароль ще раз: <input type="password" required>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Оберіть курс навчання</legend>
+            <div class="select">
+                <span>Курс навчання</span>
+                <select required>
+                    <option disabled="disabled" selected="selected">-=Виберіть курс=-</option>
+                    <option>Front-End</option>
+                    <option>Back-End</option>   
+                    <option>Project Management</option>
+                    <option>QA Manual</option>
+                </select>
+            </div>
+
+            <div class="wish">
+                <label>
+                    Короткий мотиваційний лист: <textarea required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Останній крок до вашого навчання</legend>
+
+            <div class="check">
+                <input type="checkbox" required> Я буду самим гарним учнем на курсі
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Зареєструватися">
+                <input type="reset" value="Очистити форму">
+            </div>
+        </fieldset>
+        </form>
+    </section>
+</body>
+</html>
