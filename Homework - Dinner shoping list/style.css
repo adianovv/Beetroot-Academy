@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all .1s ease-in;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dinner_list {
+    width: 793px;
+    height: 507px;
+    background-color: #3B3F45;
+    border: 2px solid gray;
+}
+
+/*start header*/
+
+.header {
+    background-color: #4A4F56;
+    width: 789px;
+    height: 82px;
+    text-align: center;
+    padding-top: 19px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FF8984;
+    margin-bottom: 4px;
+}
+
+.header span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FF8984;
+}
+
+/*end header*/
+
+/*start checklist*/
+
+.shop_list {
+    width: 534px;
+    height: 270px;
+    background-color: azure;
+    margin: 20px auto;
+}
+
+/*.shop_list--form {*/
+/*    padding: 12px;*/
+/*}*/
+
+.label {
+    display: block;
+    width: 534px;
+    height: 45px;
+    background-color: #7A7593;
+    padding-left: 12px;
+    padding-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.label span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.label span::before {
+    content: '( ';
+}
+
+.label span::after {
+    content: ' )';
+}
+
+input {
+    width: 19px;
+    height: 19px;
+}
+
+.point1, .point3, .point5 {
+    background-color: #88839E;
+}
+
+.label:hover {
+    background-color: #625E77;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.label:active {
+    background-color: crimson;
+}
+
+
+input:checked {
+    content: url("Vector1.svg");
+}
+
+
