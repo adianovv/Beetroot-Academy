@@ -77,11 +77,12 @@ body {
     width: 1200px;
     height: 495px;
     /*background-color: antiquewhite;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .first_screen--leftSide {
@@ -131,8 +132,7 @@ h1 {
 }
 
 .first_screen--image {
-    position: absolute;
     width: 644px;
     height: 495px;
-    left: 724px;
+    margin-left: 56px;
 }
