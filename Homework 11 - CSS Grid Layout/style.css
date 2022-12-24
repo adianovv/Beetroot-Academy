@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    width:  100%;
+    padding: 120px 135px;
+}
+
+.cities-works {
+    width: 1170px;
+    height: 1295px;
+    margin: 0 auto;
+}
+
+.cities-works__title {
+    font-family: 'Delius Unicase', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.cities-works__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(3, 370px);
+    grid-gap: 30px;
+}
+
+.gallery-item {
+    /*background-color: aquamarine;*/
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 80%;
+}
+
+.gallery-item:hover {
+    opacity: 100%;
+}
+.hovered-icons {
+    visibility: hidden;
+}
+
+.icon-like, .icon-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #E0E0E0;
+    border: none;
+    border-radius: 8px;
+}
+
+.gallery-item:hover .hovered-icons {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-like, .icon-download:hover {
+    cursor: url("img/Vector.svg"), auto;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.author-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.release-date {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E0E0E0;
+}
+
+.first {
+    background-image: url("img/cities-works/image-1.png");
+}
+
+.second {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url("img/cities-works/image.png");
+}
+
+.third {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url("img/cities-works/image(1).png");
+}
+
+.fourth {
+    background-image: url("img/cities-works/image-1(1).png");
+}
+
+.fifth {
+    background-image: url("img/cities-works/image-1(2).png");
+}
+
+.sixth {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url("img/cities-works/image(2).png");
+}
