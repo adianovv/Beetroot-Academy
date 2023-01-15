@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans&family=Roboto:wght@400;500&family=Staatliches&family=Tourney:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+            <div class="header_container">
+                <span class="header_container--lang">
+                    ENG
+                </span>
+                <nav class="header_navigation">
+                    <ul class="header_navigation--items">
+                        <li>Documentation</li>
+                        <li>/</li>
+                        <li>Who's using</li>
+                    </ul>
+                </nav>
+                <img src="img/company-logo-black.svg" alt="company_logo" class="header_logo">
+            </div>
+    </header>
+
+    <main class="main">
+        <aside class="main_sidebar">
+            <div class="main_sidebar--wrapper">
+                <div class="main_sidebar--item">Introduction</div>
+                <div class="main_sidebar--item">core components</div>
+                <div class="main_sidebar--item">react fundamentals</div>
+                <div class="main_sidebar--item">handling text input</div>
+            </div>
+        </aside>
+
+        <section class="main_text">
+            <div class="main_text--chapters">
+                <div class="main_text--divider"></div>
+                <h2 class="main_text--title chapter1">Introduction</h2>
+                <p class="main_text--paragraph">
+                    Welcome to the very start of your React Native journey! If you're looking for environment setup instructions, they've <u>moved to their own section.</u> Continue reading for an introduction to the documentation, Native Components, React, and more!
+                </p>
+            </div>
+            <div class="main_text--chapters">
+                <div class="main_text--divider"></div>
+                <h2 class="main_text--title chapter2">core components</h2>
+                <p class="main_text--paragraph">
+                    React Native is an open source framework for building Android and iOS applications using React and the app platform’s native capabiles. With React Native, you use JavaScript to access your platform’s APIs as well as to describe the appearance and behavior of your UI using React components: <i>bundles of reusable, nestable code.</i> You can learn more about React in the next section. But first, let’s cover how components work in React Native.
+                </p>
+            </div>
+
+            <div class="main_text--chapters">
+                <div class="main_text--divider"></div>
+                <h2 class="main_text--title chapter3">react fundamentals</h2>
+                <p class="main_text--paragraph many_paragraphs">
+                    React Native runs on <u>React</u>, a popular open source library for building user interfaces with JavaScript. To make the most of React Native, it helps to understand React itself. This section can get you started or can serve as a refresher course.
+                </p>
+                <p class="main_text--paragraph many_paragraphs">
+                    We’re going to cover the core concepts behind React:
+                </p>
+                <p class="main_text--paragraph many_paragraphs">
+                    <b>+ components.</b> The rest of this introduction to React uses cats in its examples: friendly, approachable creatures that need names and a cafe to work in.
+                </p>
+                <p class="main_text--paragraph many_paragraphs">
+                    + JSX. React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so: <br>
+                    <span class="background_span">&lt;Text&gt;Hello, I am your cat!&lt;/Text&gt;.</span>
+                </p>
+                <p class="main_text--paragraph many_paragraphs">
+                    The React docs have <u>a comprehensive guide to JSX</u> you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it. Here you are <span class="background_span">declaring</span> a name for the cat, name, and embedding it with curly braces inside <span class="background_span">&lt;Text&gt;</span>
+                </p>
+                <p class="main_text--paragraph many_paragraphs">
+                    <b>+ props.</b> Props is short for “properties”.
+                </p>
+                <p class="main_text--paragraph many_paragraphs">
+                    <b>+ state.</b> While you can think of props as arguments you use to configure how components render, state is like a component’s personal data storage. State is useful for handling data that changes over time or that comes from user interaction. State gives your components memory!
+                </p>
+            </div>
+
+            <div class="main_text--chapters">
+                <div class="main_text--divider"></div>
+                <h2 class="main_text--title chapter4">handling text input</h2>
+                <p class="main_text--paragraph many_paragraphs">
+                    TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes a function to be called every time the text changed, and an onSubmitEditing prop that takes a function to be called when the text is submitted.
+                </p>
+                <p class="main_text--paragraph many_paragraphs">
+                    For example, let's say that as the user types, you're translating their words into a different language. In this new language, every single word is written the same way: 🍕. So the sentence "Hello there Bob" would be translated as "🍕 🍕".
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
