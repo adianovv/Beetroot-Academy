@@ -42,6 +42,10 @@ label {
 }
 
 
+input {
+    padding-left: 20px;
+}
+
 input:focus{
     outline: none;
     padding-left: 20px;
@@ -129,6 +133,15 @@ input[type="number"]:focus {
 
 .form-check {
     margin-right: 20px;
+}
+
+.form-check-input {
+    padding: 0;
+}
+
+.form-check-input:focus {
+    padding: 0;
+    box-shadow: none;
 }
 
 .forms_create--geolocation {
