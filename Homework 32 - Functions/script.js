@@ -128,11 +128,9 @@ function perfectNumber(number) {
 
 let userFirstNumber;
 let userSecondNumber;
-let userPerfectNumbers;
 
 getUserNum();
 perfectNumberRange(userFirstNumber, userSecondNumber);
-userPerfectNumbers = perfectNumberRange(userFirstNumber, userSecondNumber);
 
 
 function getUserNum() {
@@ -148,8 +146,7 @@ function perfectNumberRange(firstNum, secondNum) {
         perfectNumberRange(userFirstNumber, userSecondNumber);
     } else {
         for (let i = firstNum; i <= secondNum; i++) {
-            perfectNumber(i);
-
+            perfectNumber(i); // не можу розібратися як використати свою функцію, для виведення лише досконалих чисел
         }
     }
 }
