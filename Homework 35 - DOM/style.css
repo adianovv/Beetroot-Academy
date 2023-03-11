@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.song_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+.song_list--title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.traffic_light {
+  display: flex;
+  justify-content: center;
+}
+
+.traffic_light--wrapper {
+  width: 200px;
+  height: 500px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+}
+
+.traffic_light--wrapper_circle {
+  width: 120px;
+  height: 120px;
+  border: none;
+  border-radius: 50%;
+  background-color: honeydew;
+}
+
+.traffic_red {
+  background-color: red;
+}
+
+.traffic_yellow {
+  background-color: yellow;
+}
+
+.traffic_green {
+  background-color: green;
+}
+
+#yellow {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#next_color {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: 10px auto;
+  border: #555555 1px solid;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
