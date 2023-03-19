@@ -1,0 +1,327 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: aliceblue;
+}
+
+.swiper {
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(248, 241, 234, 0.7);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #F16A50;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,15px);
+}
+
+.swiper-title {
+  position: absolute;
+  right: 100px;
+  top: 120px;
+
+  h2 {
+    width: 400px;
+    height: 110px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8F1EA;
+    margin-bottom: 50px;
+  }
+
+  button {
+    width: 227px;
+    height: 52px;
+    border: 2px solid #F8F1EA;
+    background: initial;
+    color: #F8F1EA;
+  }
+
+  button:hover {
+    background-color: #F16A50;
+    border: none;
+    cursor: url("cursors/cursor.svg"), auto;
+  }
+}
+
+//guitar swiper
+
+.guitars {
+  width: 1400px;
+  height: 800px;
+  background: #fff;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.guitars-title {
+  width: 266px;
+  height: 40px;font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.guitarSwiper {
+  width: 100%;
+  height: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.guitarSwiper-wrapper {
+  width: 1200px;
+  height: 440px;
+}
+
+.guitarSlide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 10px;
+  width: 224px;
+  height: 437px;
+  border: 1px solid #F8F1EA;
+  position: relative;
+}
+
+.guitarSlide:hover {
+  border: 1px solid #F16A50;
+  cursor: pointer;
+}
+
+.guitar-status {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 20px;
+  background: #F16A50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #F8F1EA;
+}
+
+.sold {
+  background: #F8F1EA;
+  color: #000000;
+}
+
+.guitarSlide img {
+  display: block;
+  width: 204px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 18px;
+}
+
+.guitar-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.guitar-price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.guitar-next {
+  position: absolute;
+  top: 356px;
+  right: 35px;
+  width: 40px;
+  height: 74px;
+}
+
+.guitar-prev {
+  position: absolute;
+  top: 356px;
+  left: 35px;
+  width: 40px;
+  height: 74px;
+}
+
+.swiper-button-prev:after {
+  content: none;
+}
+
+.swiper-button-next:after {
+  content: none;
+}
+
+.swiper-button-next svg {
+  transform: scaleX(-1);
+}
+
+.swiper-button-prev:hover ,
+.swiper-button-next:hover {
+  cursor: url("cursors/cursor1.svg"), auto;
+}
+
+.swiper-button-prev:hover svg path ,
+.swiper-button-next:hover svg path {
+  fill: #F16A50;
+}
+
+.guitars-button {
+  width: 227px;
+  height: 50px;
+  border: 2px solid #000000;
+  background: initial;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.guitars-button:hover {
+  border: 2px solid #F16A50;
+}
+
+
+//partners
+
+.ourPartners {
+  width: 100%;
+  height: 290px;
+  background: #F8F1EA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  position: relative;
+}
+
+.ourPartners-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.partnersSwiper {
+  width: 1186px;
+  height: 70px;
+}
+
+
+.partners-slide {
+  width: 114px;
+  height: 65px;
+  background: initial;
+}
+
+.partners-arrow-next {
+  position: absolute;
+  width: 40px;
+  height: 74px;
+  top: 198px;
+  right: 35px;
+}
+
+.partners-arrow-prev {
+  position: absolute;
+  width: 40px;
+  height: 74px;
+  top: 198px;
+  left: 35px;
+}
+
+.footer {
+  width: 100%;
+  height: 350px;
+  background: #35312D;
+}
