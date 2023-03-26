@@ -1,0 +1,141 @@
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("images/header_bg.png"), linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%), no-repeat;
+  background-size: cover;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  width: 75%;
+  margin: 0 215px;
+}
+
+.header_menu {
+  width: 45%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_menu-item {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.header_menu-item .ellipse {
+  margin-right: 15px;
+}
+
+.header_menu-item:hover .ellipse {
+  fill: #FFFFFF;
+}
+
+.header_socials {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_socials-icon:hover {
+  cursor: pointer;
+}
+.header_socials-icon:hover path {
+  fill: cornflowerblue;
+}
+.header_socials-icon:hover circle {
+  stroke: aquamarine;
+}
+
+.header_swiper {
+  width: 100%;
+  height: 420px;
+  margin: 0;
+  padding: 0;
+}
+
+.header_slide {
+  width: 100%;
+  background: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+}
+
+.header_swiper-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.header_swiper-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+}
+
+.swiper-pagination {
+  height: 210px;
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical > .swiper-pagination-bullets {
+  right: 55px;
+  top: 50%;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+  background: initial;
+}
+
+.swiper-pagination-bullet-active {
+  background: #FFFFFF;
+}
+
+.header_arrow:hover {
+  cursor: pointer;
+}
+
+.header_arrow:hover path {
+  stroke: aquamarine;
+}
+
+/*# sourceMappingURL=header_styles.css.map */
