@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Project%203%20-%20Responsive%20Website%20with%20JS/static/css/main.0251a9b1.css",
+    "main.js": "/Project%203%20-%20Responsive%20Website%20with%20JS/static/js/main.0f81b84a.js",
+    "static/js/787.b701888c.chunk.js": "/Project%203%20-%20Responsive%20Website%20with%20JS/static/js/787.b701888c.chunk.js",
+    "index.html": "/Project%203%20-%20Responsive%20Website%20with%20JS/index.html",
+    "main.0251a9b1.css.map": "/Project%203%20-%20Responsive%20Website%20with%20JS/static/css/main.0251a9b1.css.map",
+    "main.0f81b84a.js.map": "/Project%203%20-%20Responsive%20Website%20with%20JS/static/js/main.0f81b84a.js.map",
+    "787.b701888c.chunk.js.map": "/Project%203%20-%20Responsive%20Website%20with%20JS/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0251a9b1.css",
+    "static/js/main.0f81b84a.js"
+  ]
+}
