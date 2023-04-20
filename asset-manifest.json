@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.0251a9b1.css",
-    "main.js": "/react-app/static/js/main.5119523b.js",
-    "static/js/787.b701888c.chunk.js": "/react-app/static/js/787.b701888c.chunk.js",
-    "index.html": "/react-app/index.html",
-    "main.0251a9b1.css.map": "/react-app/static/css/main.0251a9b1.css.map",
-    "main.5119523b.js.map": "/react-app/static/js/main.5119523b.js.map",
-    "787.b701888c.chunk.js.map": "/react-app/static/js/787.b701888c.chunk.js.map"
+    "main.css": "/Beetroot-Academy/static/css/main.0251a9b1.css",
+    "main.js": "/Beetroot-Academy/static/js/main.570a846d.js",
+    "static/js/787.b701888c.chunk.js": "/Beetroot-Academy/static/js/787.b701888c.chunk.js",
+    "index.html": "/Beetroot-Academy/index.html",
+    "main.0251a9b1.css.map": "/Beetroot-Academy/static/css/main.0251a9b1.css.map",
+    "main.570a846d.js.map": "/Beetroot-Academy/static/js/main.570a846d.js.map",
+    "787.b701888c.chunk.js.map": "/Beetroot-Academy/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0251a9b1.css",
-    "static/js/main.5119523b.js"
+    "static/js/main.570a846d.js"
   ]
 }
