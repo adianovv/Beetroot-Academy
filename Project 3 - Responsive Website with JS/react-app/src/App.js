@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/layout/Navbar";
 import Index from "./components/layout/Index";
@@ -19,7 +19,6 @@ const App = () => {
                         <Routes>
                             <Route path="/" element={<Index />} />
                             <Route path="/lyrics/track/:id" element={<Lyrics/>}/>
-                            {/* add more routes here if needed */}
                         </Routes>
                     </div>
                 </>
